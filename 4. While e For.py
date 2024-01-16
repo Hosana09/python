@@ -5,7 +5,7 @@
 
 # Inicialização das variáveis
 
-N = int(input()) #quantidade de números 
+N = int(input()) #quantidade de números que terá na lista 
 lista = []
 
 
