@@ -4,7 +4,8 @@
 ###################################################
 
 # Leitura do número de partidas
-n = int(input())
+print("Você já brincou de Encaixe Perfeito?")
+n = int(input("Diegite o número de partidas: "))
 
 for _ in range(n): # Leitura das peças 1 e 2
   P1 = [int(i) for i in input().split()] #monta lista com numeros tirando o espaço
@@ -21,19 +22,11 @@ for n in qnt_encaixe:
   for h in P2:
     soma_altura = P2 + P1
   
-  
-  
   forma_encaixe = "Normal"
-
-
 
 if (numero_espacos != 0):
   P1 = P1.reverse()
   forma_encaixe = "Invertida"
-
-
-
-
 
   # Impressão da saída esperada para cada partida
   print("Pontuacao:", P)
