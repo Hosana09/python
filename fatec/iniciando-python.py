@@ -47,3 +47,31 @@ type(letra)
 idade = 25
 altura = 1.76
 print(f'A altura é {altura} e a idade é {idade}')
+
+x = 10
+y = 20
+z = x * y
+print("z = ",z)
+z = y/10
+print("z = ",z)
+print("x+y = ",x+y)
+
+x = 5
+y = 3
+print("Expressão 1: ",x > 4)
+print("Expressão 2: ",x == 4)
+print("Expressão 3: ",x != y)
+print("Expressão 4: ",x != y+2)
+
+r = (x > 2) and (y < x)
+print("Resultado: ",r)
+r = (x%2==0) and (y > 0)
+print("Resultado: ",r)
+r = (x > 2) or (y > x)
+print("Resultado: ",r)
+r = (x%2==0) or (y < 0)
+print("Resultado: ",r)
+r = not(x > 2)
+print("Resultado: ",r)
+r = not(x > 7) and (x > y)
+print("Resultado: ",r)
